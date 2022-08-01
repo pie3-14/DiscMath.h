@@ -26,3 +26,9 @@ double product(int n, int r) {
 	double result = pow(n, r);
 	return result;
 }
+
+// 조합
+double combination(int n, int r) {
+	double result = permutation(n, r)/ factorial(r);
+	return result;
+}

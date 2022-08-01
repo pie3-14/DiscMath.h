@@ -7,4 +7,6 @@ double permutation(int n, int r);
 
 double product(int n, int r);
 
+double combination(int n, int r);
+
 #endif
