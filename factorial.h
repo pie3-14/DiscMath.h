@@ -3,4 +3,6 @@
 
 double factorial(int num);
 
+double permutation(int n, int r);
+
 #endif
