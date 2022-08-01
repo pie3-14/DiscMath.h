@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 // 쓸모없는 걸 만드는 중일 수도 있다 ㅎ 
 
@@ -18,4 +19,10 @@ double factorial(int num) {
 double permutation(int n, int r) {
 	double result = factorial(n) / factorial(n-r);
        	return result;
+}
+
+// 중복순열
+double product(int n, int r) {
+	double result = pow(n, r);
+	return result;
 }
