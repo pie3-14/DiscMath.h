@@ -1,12 +1,6 @@
-#ifndef FACTORIAL_H
-#define FACTORIAL_H
+#progma once
 
-double factorial(int num);
-
-double permutation(int n, int r);
-
-double product(int n, int r);
-
-double combination(int n, int r);
-
-#endif
+long long int factorial(int num);
+long long int permutation(int n, int r);
+long long int product(int n, int r);
+long long int combination(int n, int r);
