@@ -1,15 +1,20 @@
-# Factorial.h
-c 팩토리얼 라이브러리   
-현재 버그가 있으니 사용을 권장하지 않습니다.   
-곧 업데이트 예정(진짜로)
+# DiscreteMath.h
+=============
+c 이산수학 라이브러리
 
 # 함수
-## 1. factorial(int num);
-정수 n의 팩토리얼 값
-## 2. permutation(int n, int r);
+=============
+아래 모든 함수는 오류 시 -1 반환
+## * fact(int num)
+-------------
+입력받은 자연수의 팩토리얼 값을 계산하여 반환
+## * pmt(int n, int r)
+-------------
 n개에서 r개 만큼 중복없이 나열
-## 3. product(int n, int r);
+## * pdt(int n, int r)
+-------------
 n개에서 r개 만큼 중복을 허용해서 나열   
 주의: 컴파일 때 -lm 키워드를 붙여야 함
-## 4. combination(int n, int r);
+## * cmb(int n, int r)
+-------------
 n개에서 r개를 선택하는 경우의 수 
