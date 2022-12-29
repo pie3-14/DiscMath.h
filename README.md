@@ -1,4 +1,4 @@
-# DiscreteMath.h
+# DiscMath.h
 c 이산수학 라이브러리
 
 # 함수
