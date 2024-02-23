@@ -1,5 +1,5 @@
 #include <math.h>
-#include "discmath.h";
+#include "combinatorics.h";
 
 // 오류 발생 시 -1 반환
 
