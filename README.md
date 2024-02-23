@@ -1,5 +1,5 @@
-# DiscMath.h
-c 이산수학 라이브러리
+# combinatorics.h
+c 조합론 라이브러리
 
 # 함수
 아래 모든 함수는 오류 시 -1 반환
